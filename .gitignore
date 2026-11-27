@@ -1,9 +1,15 @@
 node_modules/
 dist/
 build/
+/playwright-report/
+/test-results/
 .cache/
 .env*
+!.env.example
 .vite/
+*.db
+__pycache__/
+*.py[cod]
 vite.config.*.timestamp-*
 *.tsbuildinfo
 *-debug.log*
